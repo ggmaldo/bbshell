@@ -27,26 +27,23 @@ It's designed to be simple, educational, and extendable — perfect for learning
 ---
 
 # ⚙️ How to Use
-## 🚀 Main File
-
-> 💡 The main logic of BBSHELL is in [`main.cpp`](./main.cpp)
-
-## Download
-Clone the Repo
+## Clone the repo
 ```
 git clone https://github.com/ggmaldo/bbshell
 ```
-Enter the File
+## Enter the Proyect
 ```
 cd bbshell
 ```
-
-##  📥 Compile
-
-```bash
-g++ main.cpp -o bbshell
+## Create The Build Folder
 ```
-## ▶️ Run
+mkdir build && cd build
+```
+## Build the Proyect
+```
+cmake .. && make
+```
+## Run the Proyect
 ```
 ./bbshell
 ```
